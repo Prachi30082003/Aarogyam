@@ -11,7 +11,7 @@ const Footer = () => {
          <div>
            
            <img className='mb-5 w-40' src={assets.logo} alt="" />
-           <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente praesentium, commodi voluptatibus dolore unde iste alias fugit repudiandae aspernatur iure mollitia, nam, corrupti dignissimos quidem non. Veniam omnis minus unde dolorum esse consectetur velit officia ut cum maiores eveniet sint recusandae delectus magnam, laudantium, a facilis, earum animi eum reprehenderit?</p>
+           <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente praesentium, commodi voluptatibus dolore unde iste alias fugit repudiandae aspernatur iure mollitia, nam, corrupti dignissimos </p>
          </div>
 
           {/* center section */}

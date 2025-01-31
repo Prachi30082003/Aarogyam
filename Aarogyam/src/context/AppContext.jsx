@@ -6,10 +6,12 @@ export const AppContext = createContext()
 
 const AppContextProvider = (props)=>{
 
+const currencySymbol = '$'
 
   const value = { 
 //whatever we add in this can be accessed in any component
-      doctors
+      doctors,
+      currencySymbol
   }
 
   return (
