@@ -3,6 +3,7 @@ import cors from 'cors'
 import 'dotenv/config'
 import connectDB from './config/mongodb.js'
 import connectCloudinary from './config/cloudinary.js'
+import adminRouter from './routes/adminRoute.js'
 
 //app config
 const app = express()
@@ -14,6 +15,9 @@ app.use(express.json()) //whenever we send the request it parses it
 app.use(cors()) // helps connect frontend to backend
 
 //api endpoints
+app.use('/api/admin' , adminRouter)
+//localhost:7000/api/admin/add-doctor when this endpoint will hit add-doctor api handler will run
+
 
 app.get('/',(req,res)=>{
     res.end('API WORKING')
