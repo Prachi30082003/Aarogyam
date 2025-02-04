@@ -6,7 +6,7 @@ import authAdmin from '../middlewares/authAdmin.js'
 const adminRouter = express.Router() //using this multiple endpoint can be created
 
 adminRouter.post('/add-doctor',authAdmin, upload.single('image'),addDoctor) //add-doctor is endpoint
-                                                         //sending form data through middleware
+         //sending form data through middleware
  adminRouter.post('/login',loginAdmin)
 
  export default adminRouter
