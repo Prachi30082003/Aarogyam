@@ -41,7 +41,7 @@ const userSchema = new mongoose.Schema({
  
 }) 
 
-const userModel = mongoose.models.doctor || mongoose.model('user',doctorSchema)
+const userModel = mongoose.models.user || mongoose.model('user',userSchema)
 
 //whenever our project gets started this statement will run again and again and model will be created agin and again that is why added condition
 
