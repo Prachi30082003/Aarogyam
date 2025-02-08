@@ -4,3 +4,7 @@
   --color-primary: #5f6FFF;
   --my-grid-cols:repeat(auto-fill,minmax(200px,1fr));
 }
+
+::-webkit-scrollbar{
+  @apply hidden
+}

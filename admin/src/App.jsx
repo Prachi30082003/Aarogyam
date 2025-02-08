@@ -4,11 +4,12 @@ import { ToastContainer, toast } from 'react-toastify';
 import {AdminContext} from './context/AdminContext'
 import Navbar from './components/Navbar.jsx'
 import Sidebar from './components/Sidebar.jsx'
-import { Routes } from 'react-router-dom';
+import { Routes , Route } from 'react-router-dom';
 import Dashboard from './pages/Admin/Dashboard.jsx';
 import AllAppointments from './pages/Admin/AllAppointments.jsx';
 import AddDoctor from './pages/Admin/AddDoctor.jsx';
 import DoctorsList from './pages/Admin/DoctorsList.jsx';
+
 
 const App = () => {
 
