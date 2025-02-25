@@ -3,12 +3,14 @@ import axios from 'axios'
 import { toast } from "react-toastify";
 
 
+
 export const AdminContext = createContext();
 
 const AdminContextProvider = (props)=>{
 
   const [aToken , setAToken] = useState(localStorage.getItem('adminToken') || '')
   const [doctors,setDoctors] = useState([])
+  const [appointments,setAppointments] = useState([])
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL
 
@@ -52,14 +54,14 @@ const AdminContextProvider = (props)=>{
       }
   }
 
-  const getAllAppointments = async()=>{
+  const getAllAppointments = async () =>{
     
     try {
       
       const {data} = await axios.get(backendUrl + '/api/admin/appointments' , {headers:{aToken}})
 
       if(data.success){
-        setA(data.appointments)
+        setAppointments(data.appointments)
       } else{
         toast.error(data.message)
       }
@@ -69,13 +71,17 @@ const AdminContextProvider = (props)=>{
     }
   }
 
+
   const value = {
         aToken,
         setAToken,
         backendUrl,
         doctors,
         getAllDoctors,
-        changeAvailability
+        changeAvailability,
+        getAllAppointments,
+        appointments,
+        setAppointments
   }
 
   return (
