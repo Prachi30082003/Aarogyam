@@ -164,12 +164,12 @@ const AddDoctor = () => {
                 name=""
                 id=""
               >
-                <option value="General Physician">General Physician</option>
-                <option value="Gynecologist">Gynecologist</option>
-                <option value="Dermatologist">Dermatologist</option>
-                <option value="Pediatricians">Pediatricians</option>
-                <option value="Neurologist">Neurologist</option>
-                <option value="Gastroenterologist">Gastroenterologist</option>
+                <option value="Psychiatrist">Psychiatrist</option>
+                <option value="Neuropsychologist">Neuropsychologist</option>
+                <option value="Licensed Professional Counselor">Licensed Professional Counselor</option>
+                <option value="Substance Abuse Counselor">Substance Abuse Counselor</option>
+                <option value="Marriage and Family Therapist">Marriage and Family Therapist</option>
+                <option value="Pastoral Counselor">Pastoral Counselor</option>
               </select>
             </div>
 

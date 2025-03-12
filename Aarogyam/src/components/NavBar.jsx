@@ -20,7 +20,8 @@ const NavBar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400'>
-      <img onClick={()=>navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" />
+      {/* <img onClick={()=>navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" /> */}
+      <div onClick={()=>navigate('/')} className='text-xl text-primary cursor-pointer'> <span className='text-2xl'>🕊</span>Serene<span className='text-blue-900'>Connect</span></div>
 
       <ul className='hidden md:flex items-start gap-5 font-medium'>
         <NavLink to='/'>

@@ -36,6 +36,11 @@ import General_physician from './General_physician.svg'
 import Gynecologist from './Gynecologist.svg'
 import Neurologist from './Neurologist.svg'
 import Pediatricians from './Pediatricians.svg'
+import Counselling from './What-Is-Applied-Psychology-Hero-Image-removebg-preview.png'
+import pastoral from './pastoral-counseling-blue-gradient-concept-icon-priest-spiritual-advice-christian-support-abstract-idea-thin-line-illustration-275392741.webp'
+import substance_abuse from './Substance-Abuse-Icon_Blue.webp'
+import mental_health from './psychology-job-with-counseling-depressions-and-anxiety-two-women-are-sitting-and-talking-mental-health-concept-illustration-vector.jpg'
+import family from './Screenshot 2025-03-12 163133.png'
 
 
 export const assets = {
@@ -55,32 +60,33 @@ export const assets = {
     dropdown_icon,
     upload_icon,
     stripe_logo,
-    razorpay_logo
+    razorpay_logo,
+    Counselling
 }
 
 export const specialityData = [
     {
-        speciality: 'General physician',
+        speciality: 'Psychiatrist',
         image: General_physician
     },
     {
-        speciality: 'Gynecologist',
-        image: Gynecologist
-    },
-    {
-        speciality: 'Dermatologist',
+        speciality: 'Peer Support Specialist',
         image: Dermatologist
     },
     {
-        speciality: 'Pediatricians',
+        speciality: 'Substance Abuse Counselor',
+        image: Dermatologist
+    },
+    {
+        speciality: 'Marriage and Family Therapist',
         image: Pediatricians
     },
     {
-        speciality: 'Neurologist',
+        speciality: 'Licensed Professional Counselor',
         image: Neurologist
     },
     {
-        speciality: 'Gastroenterologist',
+        speciality: 'Pastoral Counselor',
         image: Gastroenterologist
     },
 ]

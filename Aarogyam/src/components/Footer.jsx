@@ -10,8 +10,8 @@ const Footer = () => {
 
          <div>
            
-           <img className='mb-5 w-40' src={assets.logo} alt="" />
-           <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente praesentium, commodi voluptatibus dolore unde iste alias fugit repudiandae aspernatur iure mollitia, nam, corrupti dignissimos </p>
+         <div onClick={()=>navigate('/')} className='text-xl text-primary cursor-pointer'> <span className='text-2xl'>🕊</span>Serene<span className='text-blue-900'>Connect</span></div>
+           <p className='w-full md:w-2/3 text-gray-600 leading-6 pt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente praesentium, commodi voluptatibus dolore unde iste alias fugit repudiandae aspernatur iure mollitia, nam, corrupti dignissimos </p>
          </div>
 
           {/* center section */}
@@ -43,7 +43,7 @@ const Footer = () => {
 
            <div>
             <hr />
-            <p className='py-5 text-sm text-center '>Copyright 2024@ Prescripto - All Rights Reserved</p>
+            <p className='py-5 text-sm text-center '>Copyright 2024@ SereneConnect - All Rights Reserved</p>
            </div>
       
     </div>
