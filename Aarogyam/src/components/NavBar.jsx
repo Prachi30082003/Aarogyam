@@ -30,7 +30,7 @@ const NavBar = () => {
         </NavLink>
 
         <NavLink to='/doctors'>
-          <li className='py-1'>ALL DOCTORS</li>
+          <li className='py-1'>ALL</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden'/>
         </NavLink>
 

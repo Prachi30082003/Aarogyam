@@ -39,7 +39,7 @@ const Doctors = () => {
           
           <p onClick={()=> speciality==='Psychiatrist'? navigate('/doctors') : navigate('/doctors/Psychiatrist')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality==="Psychiatrist" ? "bg-indigo-100 text-black" : ""}`}>Psychiatrist</p>
 
-          <p onClick={()=> speciality==='Neuropsychologist'? navigate('/doctors') : navigate('/doctors/Neuropsychologist')}  className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality==="Neuropsychologist" ? "bg-indigo-100 text-black" : ""}`}>Neuropsychologist</p>
+          <p onClick={()=> speciality==='Peer Support Specialist'? navigate('/doctors') : navigate('/doctors/Peer Support Specialist')}  className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality==="Peer Support Specialist" ? "bg-indigo-100 text-black" : ""}`}>Peer Support Specialist</p>
 
           <p onClick={()=> speciality==='Licensed Professional Counselor'? navigate('/doctors') : navigate('/doctors/Licensed Professional Counselor')} className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality==="Licensed Professional Counselor" ? "bg-indigo-100 text-black" : ""}`}>Licensed Professional Counselor</p>
 

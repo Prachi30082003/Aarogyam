@@ -30,17 +30,19 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
+import mental_health from './iStock-1308910334purchased small therapy_0.webp'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
 import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
+import Neurologist from './download (6).jpeg'
 import Pediatricians from './Pediatricians.svg'
 import Counselling from './What-Is-Applied-Psychology-Hero-Image-removebg-preview.png'
 import pastoral from './pastoral-counseling-blue-gradient-concept-icon-priest-spiritual-advice-christian-support-abstract-idea-thin-line-illustration-275392741.webp'
 import substance_abuse from './Substance-Abuse-Icon_Blue.webp'
-import mental_health from './psychology-job-with-counseling-depressions-and-anxiety-two-women-are-sitting-and-talking-mental-health-concept-illustration-vector.jpg'
 import family from './Screenshot 2025-03-12 163133.png'
+import banner from './mental-health-1024x576-removebg-preview.png'
+import contact from './indian-psychologist-advising-middle-aged-600nw-2368780783.webp'
+import peer from './Dermatologist.svg'
 
 
 export const assets = {
@@ -61,7 +63,9 @@ export const assets = {
     upload_icon,
     stripe_logo,
     razorpay_logo,
-    Counselling
+    Counselling,
+    banner,
+    contact
 }
 
 export const specialityData = [
@@ -70,16 +74,12 @@ export const specialityData = [
         image: General_physician
     },
     {
-        speciality: 'Peer Support Specialist',
-        image: Dermatologist
-    },
-    {
         speciality: 'Substance Abuse Counselor',
-        image: Dermatologist
+        image: substance_abuse
     },
     {
         speciality: 'Marriage and Family Therapist',
-        image: Pediatricians
+        image: family
     },
     {
         speciality: 'Licensed Professional Counselor',
@@ -87,7 +87,11 @@ export const specialityData = [
     },
     {
         speciality: 'Pastoral Counselor',
-        image: Gastroenterologist
+        image: pastoral
+    },
+    {
+        speciality: 'Peer Support Specialist',
+        image: mental_health
     },
 ]
 

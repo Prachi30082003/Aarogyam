@@ -165,7 +165,7 @@ const AddDoctor = () => {
                 id=""
               >
                 <option value="Psychiatrist">Psychiatrist</option>
-                <option value="Neuropsychologist">Neuropsychologist</option>
+                <option value="Peer Support Specialist">Peer Support Specialist</option>
                 <option value="Licensed Professional Counselor">Licensed Professional Counselor</option>
                 <option value="Substance Abuse Counselor">Substance Abuse Counselor</option>
                 <option value="Marriage and Family Therapist">Marriage and Family Therapist</option>
