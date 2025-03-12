@@ -35,3 +35,13 @@ Imagine a world where mental wellness is just a click away. Where you can break 
 ![Screenshot 2025-03-13 000729](https://github.com/user-attachments/assets/02f5f635-ffe5-43b1-90b6-c8e0a3b6060d)
 
 ![Screenshot 2025-03-13 000807](https://github.com/user-attachments/assets/9f8c3554-0f06-47d9-b6d0-7ae1d4fbd764)
+
+![Screenshot 2025-03-13 000824](https://github.com/user-attachments/assets/0329f983-20c4-4a1d-9b55-3619f2f2ab9a)
+
+![Screenshot 2025-03-13 000807](https://github.com/user-attachments/assets/7c9cf5f0-3685-44f6-a7af-4d953886470a)
+
+![Screenshot 2025-03-13 000844](https://github.com/user-attachments/assets/69197abb-74f7-497c-a7e9-3430b18e3298)
+
+![Screenshot 2025-03-13 000924](https://github.com/user-attachments/assets/c2837477-4cf7-41f2-94ec-b20bfd407aca)
+
+
